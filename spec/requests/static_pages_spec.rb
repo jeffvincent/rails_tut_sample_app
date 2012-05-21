@@ -4,7 +4,7 @@ describe "StaticPages" do
 
   subject { page }
 
-  shared_examples_for "all static pages" do
+  shared_examples_for "all_static_pages" do
     it { should have_selector('h1', text: heading ) }
     it { should have_selector('title', text: full_title(page_title) ) }
   end

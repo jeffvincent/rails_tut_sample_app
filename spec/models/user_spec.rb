@@ -34,4 +34,6 @@ describe User do
     before { @user.name = "a" * 51 }
     it { should_not be_valid }
   end
+
+
 end
